@@ -1,0 +1,12 @@
+general.import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
+
+[font]
+size = 13
+
+[font.normal]
+family = "Caskaydia Mono Nerd Font"
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+opacity = 0.95
