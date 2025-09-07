@@ -7,7 +7,8 @@ if test -f $HOME/.config/fish/secrets.fish
     source $HOME/.config/fish/secrets.fish
 end
 
-fish_add_path -m $HOME/.bin $HOME/.local/bin /usr/local/bin $fish_user_paths
+fish_add_path -m $HOME/.bin $HOME/.local/bin /usr/local/bin /usr/local/go/bin $fish_user_paths
+
 source $HOME/.config/fish/aliases.fish
 
 function mkcd
