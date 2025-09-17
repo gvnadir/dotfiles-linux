@@ -8,6 +8,11 @@ return {
         replace_netrw = true,
       },
       picker = {
+        icons = {
+          files = {
+            enabled = false,
+          },
+        },
         sources = {
           explorer = {
             hidden = true,
